@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+header {
+    color: black;
+    background-color: mintcream;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+}
+.login {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
+.marquee {
+    display: flex;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    /* background-image: url(../public/images/back.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    color: white;
+}
+
+.text {
+    text-shadow: 4px 4px 4px rgb(156, 154, 154);
+
+}
+
+.BestSeller {
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 20px;
+    width: 20%;
+}
